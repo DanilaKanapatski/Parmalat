@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    border: none;
+    background: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+:root {
+    --dark-violet: #3e0097;
+    --white: #fff;
+    --yellow: #ffd100;
+    --blue: #4860c9;
+    --light-yellow: #feeea1;
+    --dark-pink: #d6006d;
+    --grey: #95919b;
+    --light-grey: #e8e8e8;
+    --light-purple: #ba9ae9;
+    --main-violet: #60329c;
+    --light-pink: #ffe1f1;
+    --grey-purple: #574670;
+    --bright-pink: #fa7bbb;
+    --red-purple: #7141a7;
+    --levender: #e0cbff;
+    --greish-brown: #bababa;
+    --section-violet: #7047a7;
+    --background: #551da6;
+    --greish-yellow: #aea687;
+    --greish-levender: #9e97a7;
+    --dark-background: #3c0c86;
+    --light-background: #5d2e9a;
+    --q+a: #502492;
+}
+
+body {
+    font-family: "Golos Text", sans-serif;
+    background: linear-gradient(136deg, #6d3fa3 0%, #380884 100%);
+}
+
+.container {
+    max-width: 1760px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: var(--dark-background);
+}

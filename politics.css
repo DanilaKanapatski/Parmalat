@@ -85,6 +85,22 @@ body {
     border-radius: 50%;
 }
 
+.politics-list__desktop {
+    display: none;
+}
+
+.politics-desc__desktop {
+    display: none;
+}
+
+.politics-list__tablet {
+    display: none;
+}
+
+.politics-desc__tablet {
+    display: none;
+}
+
 @media screen and  (max-width: 1920px) {
 
     .politics-title {
@@ -125,6 +141,7 @@ body {
     }
 
     .politics-desc__desktop {
+        display: block;
         font-weight: 400;
         font-size: 16px;
         color: var(--dark-violet);
@@ -140,5 +157,96 @@ body {
         color: var(--dark-violet);
         margin: 0 auto;
         max-width: 1350px;
+    }
+}
+
+@media screen and  (max-width: 1440px) {
+
+    .politics {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .politics-content {
+        padding: 0 12px;
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .politics-title {
+        font-size: 34px;
+        max-width: 376px;
+    }
+
+    .politics-text {
+        gap: 20px;
+        align-items: start;
+        max-width: 306px;
+    }
+
+    .politics-text h4 {
+        font-size: 14px;
+        line-height: 110%;
+        text-align: left;
+    }
+
+    .politics-text p {
+        line-height: 110%;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .politics-subtitle {
+        margin-top: 8px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        text-align: left;
+        line-height: 110%;
+        padding: 0 12px;
+    }
+
+    .politics-desc__tablet {
+        display: block;
+        margin: auto;
+        max-width: none;
+        font-size: 14px;
+        padding: 0 12px;
+        line-height: 110%;
+        color: var(--dark-violet);
+    }
+
+    .politics-list__tablet {
+        margin: auto;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0 12px;
+        font-size: 14px;
+        line-height: 110%;
+        color: var(--dark-violet);
+    }
+
+    .politics-list__tablet li {
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .politics-list__tablet li:before {
+        position: absolute;
+        content: "";
+        top: 5px;
+        left: 7px;
+        width: 4px;
+        height: 4px;
+        background: var(--dark-violet);
+        border-radius: 50%;
+    }
+
+    .politics-list__desktop {
+        display: none;
+    }
+
+    .politics-desc__desktop {
+        display: none;
     }
 }

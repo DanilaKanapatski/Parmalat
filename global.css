@@ -50,8 +50,7 @@ button {
 
 body {
     font-family: "Golos Text", sans-serif;
-    /*background: linear-gradient(136deg, #6d3fa3 0%, #380884 100%);*/
-    background: var(--light-background);
+    background: linear-gradient(136deg, #6d3fa3 0%, #380884 100%);
 }
 
 .container {

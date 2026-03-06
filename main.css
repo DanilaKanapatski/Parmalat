@@ -1737,7 +1737,7 @@
     .benefits-block:nth-child(5) {
         position: absolute;
         top: 316px;
-        right: 62px;
+        right: -62px;
     }
 
     .benefits-block:nth-child(6) {

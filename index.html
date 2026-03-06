@@ -12,9 +12,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
-
+<header class="header">
+    <div class="container">
+        <img src="assets/images/header-logo.svg">
+        <ul class="header-list">
+            <li><a href="#about">О продукте</a></li>
+            <li><a href="#why">О пользе белка</a></li>
+            <li><a href="#assortment">Ассортимент</a></li>
+            <li><a href="#recipes">Рецепты</a></li>
+            <li><a href="#buy">Где купить</a></li>
+            <li><a href="#faq">Вопросы и ответы</a></li>
+        </ul>
+    </div>
+</header>
 <main>
-    <section class="about">
+    <section class="main">
+        <div class="container">
+            <img src="assets/images/main-1.svg" alt="">
+            <img class="main-header" src="assets/images/header-back.svg" alt="">
+            <p class="main-desc">Первое молоко <span>с высоким содержанием белка</span>  в России</p>
+        </div>
+    </section>
+    <section id="about" class="about">
         <div class="container">
             <h2 class="title">О продукте</h2>
             <div class="about-wrapper">
@@ -35,6 +54,18 @@
                     </div>
                 </div>
                 <ul class="about-list">
+                    <div class="about-info__mob">
+                        <h3>Содержит большое количество белка</h3>
+                        <p><span>В Parmalat Protein</span> больше белка, чтобы дольше чувствовать сытость, поддерживать
+                            тело в тонусе и быть энергичным</p>
+                        <ul class="about-icons">
+                            <li><img src="assets/images/about-5.svg" alt=""></li>
+                            <li><img src="assets/images/about-6.svg" alt=""></li>
+                            <li><img src="assets/images/about-7.svg" alt=""></li>
+                        </ul>
+                        <img class="about-img" src="assets/images/about-4.svg" alt="">
+                    </div>
+
                     <li>
                         <img src="assets/images/about-1.svg">
                         <h3>На каждый день!</h3>
@@ -60,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section class="why">
+    <section id="why" class="why">
         <div class="container">
             <div class="why-wrapper">
                 <div class="why-content">
@@ -211,7 +242,7 @@
 
         </div>
     </section>
-    <section class="assortment">
+    <section id="assortment" class="assortment">
         <div class="container">
             <h2 class="assortment-title">Ассортимент</h2>
             <div class="assortment-wrapper">
@@ -301,7 +332,7 @@
             </ul>
         </div>
     </section>
-    <section class="recipes">
+    <section id="recipes" class="recipes">
         <div class="container">
             <h2 class="recipe-title">Рецепты нутрициолога:</h2>
             <div class="swiper recipe-slider">
@@ -670,7 +701,7 @@
             </div>
         </div>
     </section>
-    <section class="buy">
+    <section id="buy" class="buy">
         <div class="container">
             <h2 class="buy-title">Где купить?</h2>
             <div class="buy-wrapper">
@@ -713,7 +744,7 @@
             </div>
         </div>
     </section>
-    <section class="faq">
+    <section id="faq" class="faq">
         <div class="container">
 
             <h2 class="faq-title">Вопросы и ответы:</h2>

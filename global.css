@@ -23,6 +23,10 @@ button {
     background: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --dark-violet: #3e0097;
     --white: #fff;

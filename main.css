@@ -1233,7 +1233,7 @@
 
     .main {
         background: url("assets/images/main-back-1.png") no-repeat;
-        padding-top: 131px;
+        padding-top: 161px;
         position: relative;
         padding-bottom: 281px;
         background-size: 100% auto, cover;
@@ -3085,7 +3085,7 @@
     }
 
     .recipes {
-        padding: 24px 0 0 0;
+        padding: 24px 0 48px 0;
     }
 
     .recipe-slider {
@@ -3255,44 +3255,66 @@
     }
 
     .buy-wrapper {
-        align-items: center;
-        justify-content: center;
-        margin-top: 74px;
+        display: flex;
+        margin-top: 135px;
+        position: relative;
+        align-items: start;
+        padding-bottom: 515px;
+        justify-content: start;
     }
 
-    .buy-wrapper iframe {
-        width: 721px;
-        height: 439px;
-        border-radius: 30px;
-    }
+    /*.buy-wrapper iframe {*/
+    /*    width: 1017px;*/
+    /*    height: 601px;*/
+    /*    border-radius: 40px;*/
+    /*}*/
 
-    .buy-wrapper img {
+    .buy-wrapper>img {
         position: absolute;
         top: auto;
-        bottom: -370px;
-        /*width: 523px;*/
-        height: 264px;
-        right: 0;
-        left: 413px;
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%);
+        width: 80%;
+    }
+
+    .buy-title {
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 100%;
+        color: var(--white);
+    }
+
+    .buy-content {
+        display: flex;
+        flex-direction: column;
     }
 
     .buy-desc {
-        max-width: 299px;
-        margin-top: 56px;
+        margin-top: 0;
+        padding-left: 0;
+        font-weight: 700;
         font-size: 22px;
+        max-width: 299px;
+        color: var(--white);
     }
 
     .buy-list {
-        margin-top: 32px;
         flex-wrap: wrap;
-        max-width: 409px;
+        gap: 0 15px;
+        margin-top: 32px;
+        max-width: 500px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
     }
 
-    .buy-list li {
-        width: 50%;
+    .buy-list a {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 239px;
+        height: 143px;
     }
 
     /*request*/

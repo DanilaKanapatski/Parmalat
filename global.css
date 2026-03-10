@@ -888,7 +888,10 @@ body {
         z-index: 100000;
         bottom: 30px;
         right: 30px;
-        max-width: 203px;
+        max-width: 167px;
+        background: var(--levender);
+        padding: 17px 0 10px 0;
+        border-radius: 32px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -913,7 +916,7 @@ body {
     .floating p {
         margin-top: 10px;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         color: var(--dark-violet);
     }

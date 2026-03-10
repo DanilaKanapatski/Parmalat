@@ -515,11 +515,22 @@ body {
     }
 
     .floating {
+        position: fixed;
+        z-index: 100000;
         bottom: 230px;
+        right: 30px;
+        max-width: 167px;
+        background: var(--levender);
+        padding: 17px 0 10px 0;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .floating p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     /* section */

@@ -1956,30 +1956,63 @@
     }
 
     .buy-wrapper {
-        margin-top: 52px;
+        display: flex;
+        margin-top: 30px;
+        position: relative;
+        align-items: end;
+        justify-content: end;
     }
 
-    .buy-wrapper iframe {
-        width: 568px;
-        height: 601px;
-        border-radius: 30px;
-    }
+    /*.buy-wrapper iframe {*/
+    /*    width: 1017px;*/
+    /*    height: 601px;*/
+    /*    border-radius: 40px;*/
+    /*}*/
 
-    .buy-wrapper img {
+    .buy-wrapper>img {
         position: absolute;
-        top: -52px;
-        right: 362px;
+        top: 0;
+        right: 379px;
+    }
+
+    .buy-title {
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 100%;
+        color: var(--white);
+    }
+
+    .buy-content {
+        display: flex;
+        flex-direction: column;
     }
 
     .buy-desc {
+        margin-top: 57px;
+        padding-left: 47px;
+        font-weight: 700;
         font-size: 22px;
+        color: var(--white);
     }
 
     .buy-list {
+        flex-wrap: wrap;
+        gap: 10px 50px;
+        margin-top: 59px;
+        max-width: 600px;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+
+    .buy-list a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 253px;
+        height: 151px;
+    }
+
 
     /*request*/
 

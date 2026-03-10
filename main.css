@@ -49,9 +49,9 @@
 .main {
     background: url("assets/images/main-back.png") no-repeat;
     background-size: 100% auto, cover;
-    padding-top: 184px;
+    padding-top: 210px;
     position: relative;
-    padding-bottom: 356px;
+    padding-bottom: 368px;
     margin-bottom: -109px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .main-desc {
-    margin-top: 42px;
+    margin-top: 30px;
     font-weight: 700;
     font-size: 24px;
     color: var(--white);
@@ -82,17 +82,17 @@
     position: relative;
 }
 
-.main-img2 {
-    position: absolute;
-    top: -27px;
-    right: 795px;
-}
+/*.main-img2 {*/
+/*    position: absolute;*/
+/*    top: -27px;*/
+/*    right: 795px;*/
+/*}*/
 
-.main-img3 {
-    position: absolute;
-    top: -27px;
-    right: 222px;
-}
+/*.main-img3 {*/
+/*    position: absolute;*/
+/*    top: -27px;*/
+/*    right: 222px;*/
+/*}*/
 
 /*about*/
 
@@ -929,19 +929,19 @@
 
 .buy-wrapper {
     display: flex;
-    align-items: end;
-    justify-content: end;
     margin-top: 36px;
     position: relative;
+    align-items: end;
+    justify-content: end;
 }
 
-.buy-wrapper iframe {
-    width: 1017px;
-    height: 601px;
-    border-radius: 40px;
-}
+/*.buy-wrapper iframe {*/
+/*    width: 1017px;*/
+/*    height: 601px;*/
+/*    border-radius: 40px;*/
+/*}*/
 
-.buy-wrapper img {
+.buy-wrapper>img {
     position: absolute;
     top: -36px;
     right: 842px;
@@ -954,18 +954,32 @@
     color: var(--white);
 }
 
+.buy-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .buy-desc {
-    margin-top: 48px;
+    margin-top: 116px;
+    padding-left: 47px;
     font-weight: 700;
     font-size: 24px;
     color: var(--white);
 }
 
 .buy-list {
+    flex-wrap: wrap;
+    gap: 68px;
+    margin-top: 59px;
+    max-width: 814px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+/*.buy-list img {*/
+/*    width: 33%;*/
+/*}*/
 
 /*request*/
 
@@ -3310,6 +3324,10 @@
 }
 
 @media screen and (max-width: 767px) {
+    section {
+        max-width: 400px !important;
+        margin: 0 auto;
+    }
     .header {
         display: none;
     }

@@ -929,7 +929,7 @@
 
 .buy-wrapper {
     display: flex;
-    margin-top: 36px;
+    margin-top: 42px;
     position: relative;
     align-items: end;
     justify-content: end;
@@ -943,7 +943,7 @@
 
 .buy-wrapper>img {
     position: absolute;
-    top: -36px;
+    top: 0;
     right: 842px;
 }
 
@@ -969,15 +969,23 @@
 
 .buy-list {
     flex-wrap: wrap;
-    gap: 68px;
+    gap: 50px;
     margin-top: 59px;
-    max-width: 814px;
+    max-width: 865px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/*.buy-list img {*/
+.buy-list a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 253px;
+    height: 151px;
+}
+
+    /*.buy-list img {*/
 /*    width: 33%;*/
 /*}*/
 

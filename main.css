@@ -4131,7 +4131,7 @@
     .benefits-wrapper picture {
         position: relative;
         z-index: 2;
-        right: -11px;
+        right: 0;
     }
 
     .benefits-block {

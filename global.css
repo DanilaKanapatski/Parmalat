@@ -1618,9 +1618,12 @@ body {
     .floating {
         position: fixed;
         z-index: 100000;
-        bottom: 190px;
+        bottom: 180px;
         right: 10px;
-        max-width: 178px;
+        max-width: 114px;
+        background: var(--levender);
+        padding: 17px 14px 11px 14px;
+        border-radius: 32px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1645,7 +1648,7 @@ body {
     .floating p {
         margin-top: 10px;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 8px;
         line-height: 110%;
         text-align: center;
         color: var(--dark-violet);

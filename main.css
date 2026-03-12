@@ -972,6 +972,7 @@
 }
 
 .buy-list {
+    z-index: 25;
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 59px;
@@ -1093,6 +1094,11 @@
     justify-content: center;
     width: 236px;
     height: 54px;
+}
+
+.request-btn.active {
+    background: linear-gradient(90deg, #450a9c 0%, #8b60ca 24.04%, #cbaff5 100%);
+    color: var(--white);
 }
 
 /*faq*/
@@ -2478,7 +2484,7 @@
 
     .why {
         padding: 121px 0 186px 0;
-        background: url("assets/images/why-back-2.svg") no-repeat var(--light-background);
+        background: url("assets/images/why-back-2.svg") no-repeat;
         background-size: 100% auto, cover;
     }
 
@@ -3729,7 +3735,7 @@
 
     .why {
         padding: 94px 0 109px 0;
-        background: url("assets/images/why-back-3.svg") no-repeat var(--light-background);;
+        background: url("assets/images/why-back-3.svg") no-repeat;
         background-size: 100% auto, cover;
     }
 

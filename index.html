@@ -924,20 +924,27 @@
             <div class="request-wrapper"><img src="assets/images/request-1.png" alt="">
                 <h2 class="request-title">Вступайте в наш клуб, чтобы получить гайд с белковыми рецептами</h2>
                 <p class="request-desc">В гайде собраны лайфхаки, как получать норму белка каждый день.</p>
-                <form class="request-form">
+                <form class="request-form" id="guideForm">
+
                     <label>
                         Ваш email:
-                        <input type="email" placeholder="введите ваш email">
+                        <input type="email" name="email" placeholder="введите ваш email" required>
                     </label>
 
                     <label>
                         Ваш телефон:
-                        <input type="tel" placeholder="введите ваш номер телефона">
+                        <input type="tel" name="phone" placeholder="введите ваш номер телефона" required>
                     </label>
+
                     <label class="request-checkbox">
-                        <input type="checkbox">Согласен/на на обработку персональных данных
+                        <input type="checkbox" name="agree" required>
+                        Согласен/на на обработку персональных данных
                     </label>
-                    <button class="request-btn" type="submit">Получить гайд</button>
+
+                    <button class="request-btn" type="submit">
+                        Получить гайд
+                    </button>
+
                 </form>
             </div>
         </div>
@@ -1128,5 +1135,7 @@
 <script src="cookie.js"></script>
 <script src="header.js"></script>
 <script src="calculator.js"></script>
+<script src="floating.js"></script>
+<script src="send.js"></script>
 </body>
 </html>

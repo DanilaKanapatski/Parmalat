@@ -340,7 +340,7 @@
 
 .comparison-img img {
     position: absolute;
-    left: 70px;
+    left: -10px;
     bottom: 0;
 }
 
@@ -945,10 +945,10 @@
 /*    border-radius: 40px;*/
 /*}*/
 
-.buy-wrapper>img {
+.buy-wrapper picture img {
     position: absolute;
     top: 0;
-    right: 842px;
+    right: 1026px;
 }
 
 .buy-title {
@@ -1979,10 +1979,10 @@
     /*    border-radius: 40px;*/
     /*}*/
 
-    .buy-wrapper>img {
+    .buy-wrapper picture img {
         position: absolute;
         top: 0;
-        right: 379px;
+        right: 700px;
     }
 
     .buy-title {
@@ -2448,6 +2448,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -3279,13 +3280,13 @@
     /*    border-radius: 40px;*/
     /*}*/
 
-    .buy-wrapper>img {
+    .buy-wrapper picture img {
         position: absolute;
         top: auto;
         bottom: 0;
         right: 50%;
         transform: translate(50%);
-        width: 80%;
+        width: 77%;
     }
 
     .buy-title {
@@ -4580,7 +4581,7 @@
     /*    border-radius: 40px;*/
     /*}*/
 
-    .buy-wrapper>img {
+    .buy-wrapper picture {
        display: none;
     }
 
